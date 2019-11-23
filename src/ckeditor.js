@@ -8,6 +8,8 @@ import DecoupledEditorBase from '@ckeditor/ckeditor5-editor-decoupled/src/decoup
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
@@ -42,6 +44,8 @@ export default class DecoupledEditor extends DecoupledEditorBase {}
 DecoupledEditor.builtinPlugins = [
 	Essentials,
 	Alignment,
+	FontBackgroundColor,
+	FontColor,
 	FontSize,
 	FontFamily,
 	Highlight,
